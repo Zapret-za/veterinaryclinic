@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPet</title>
+    <link  rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome-free-6.1.1-web/css/all.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+    <img class="paws_1" src="images/paws_1.png" alt="">
+    <img class="paws_2" src="images/paws_2.png" alt="">
+    <div class="container">
+        <div class="header__body">
+            <div class="col-1">
+                <div class="location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>312 Columbia Ave, Glasgow,<br>
+                        KY 42141, United States</p>
+                </div>
+                <div class="logo">
+                    <a href="#">
+                        <img src="images/logo.png" alt="">
+                        <span class="color__yellow">i</span><span class="color__green">Pet</span>
+                    </a>
+                </div>
+                <div class="phone">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+1 406 183-3464<br>24 HOUR EMERGENCY</p>
+                </div>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a class="active" href="#">Home</a></li>
+                    <li><a class="services" href="#services">Services</a></li>
+                    <li><a class="about" href="#about">About us</a></li>
+                    <li><a class="reviews" href="#reviews">Reviews</a></li>
+                    <li><a class="contact" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="mobile__menu">
+                <div class="menu">
+                    <div class="app-menu">
+                        <ul>
+                            <li><a class="active" href="#">Home</a></li>
+                            <li><a class="services" href="#services">Services</a></li>
+                            <li><a class="about" href="#about">About us</a></li>
+                            <li><a class="reviews" href="#reviews">Reviews</a></li>
+                            <li><a class="contact" href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="layout">
+                    <div class="header">
+                        <div class="menu-icon">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                        <div class="logo">
+                            <a href="#">
+                                <img src="images/logo.png" alt="">
+                                <span class="color__yellow">i</span><span class="color__green">Pet</span>
+                            </a>
+                        </div>
+                        <div class="phone">
+                            <a href="#">
+                                <i class="fa-solid fa-phone"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__center" >
+                <div class="text" data-aos="fade-up" data-aos-duration="1500">
+                    <h1><span class="color__yellow">i</span><span class="color__green">Pet</span> for<br>love</h1>
+                    <p>iPet's here for love, health, happiness-and with a free first visit for you and your pet. Can't wait to meet you both!</p>
+                    <button id="myBtn" class="button__make"><span class="p">Make an appointment</span><span class="l"></span><i class="fa-solid fa-phone"></i></button>
+                </div>
+                <div class="img">
+                    <img src="images/dog__img.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close">
+                <i class="fa-solid fa-xmark"></i>
+            </span>
+        </div>
+        <div class="modal-body">
+            <h3>Making an appointment</h3>
+            <form action="#" method="#">
+                <input type="text" name="name" placeholder="Name" required><br>
+                <input type="tel" name="tel" placeholder="Phone" required><br>
+                <input type="checkbox" required><span>I agree to the processing of personal data</span><br>
+                <input type="submit" value="Confirm">
+            </form>
+        </div>
+    </div>
+</div>
+
+<section id="services" class="servicess">
+    <div class="container">
+        <h2 data-aos="fade-down" data-aos-duration="1500">Check out our services</h2>
+        <p class="text" data-aos="fade-down" data-aos-duration="1500">Learn about our helpful services</p>
+        <div class="services__body">
+            <div class="services__card" data-aos="fade-up" data-aos-duration="1500">
+                <img src="images/6.png" alt="">
+                <h5>Client Services</h5>
+                <p>When it comes to veterinary care, you want only the best for your pet.Park Animal Hospital in San Francisco is committed to providing your pet with cutting-edge veterinary services in a caring, compassionate environment.</p>
+            </div>
+            <div class="services__card" data-aos="fade-up" data-aos-duration="1500">
+                <img src="images/5.png" alt="">
+                <h5>Pet Wellness Services</h5>
+                <p>Regular wellness exams are the key to keeping your pet healthy. We recommend all pets undergo an annual nose-to-tail wellness exam, though more frequent exams are encouraged.</p>
+            </div>
+            <div class="services__card" data-aos="fade-up" data-aos-duration="1500">
+                <img src="images/4.png" alt="">
+                <h5>Diagnosis Services</h5>
+                <p>X-rays are one of the most useful techniques available for diagnosing your pet's problem quickly and efficiently.</p>
+            </div>
+            <div class="services__card" data-aos="fade-up" data-aos-duration="1500">
+                <img src="images/3.png" alt="">
+                <h5>Surgical care</h5>
+                <p>Surgical Care including spay and neuter, intestinal, lumps, eye surgery, and gastrointestinal issues.</p>
+            </div>
+            <div class="services__card" data-aos="fade-up" data-aos-duration="1500">
+                <img src="images/2.png" alt="">
+                <h5>Laser Therapy</h5>
+                <p>Whether your pet is rehabilitating from trauma or injury, healing from wounds, or simply aging, your companion can benefit from this innovative approach to treating pain.
+                </p>
+            </div>
+            <div class="services__card" data-aos="fade-up" data-aos-duration="1500">
+                <img src="images/1.png" alt="">
+                <h5>Client Services</h5>
+                <p>We have the tools, training and experience to diagnose life-threatening illness and injuries.We are equipped and ready to help with your emergency or critical care situation.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="online">
+    <div class="container">
+        <div class="online__body">
+            <div class="img" data-aos="fade-up">
+                <img src="images/img__dog.png" alt="">
+            </div>
+            <div class="title__text" data-aos="fade-up">
+                <h2>Online consultation</h2>
+                <p>Prompt veterinary care wherever you are. Book an online video chat with one of our emergency vets and talk through your concerns from the comfort of your own home.</p>
+                <button id="myBtn1" class="button__make-yellow"><span class="p">Make an appoinment</span><span class="l"></span><i class="fa-solid fa-phone"></i></button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="aboutt">
+    <img class="paws_1" src="images/paws_1.png" alt="">
+    <img class="paws_2" src="images/paws_2.png" alt="">
+    <img class="paws_3" src="images/paws_1.png" alt="">
+    <div class="container">
+        <h2 data-aos="fade-down" data-aos-duration="1500">Caring professionals</h2>
+        <p class="text" data-aos="fade-down" data-aos-duration="1500">iPet Hospital offers the best in veterinary care for your pet, with state-of-the-art medical equipment, cutting-edge medicine and a caring, compassionate team</p>
+        <div class="about__body">
+            <div class="about__body-card" data-aos="fade-up" data-aos-duration="1500">
+                <img src="images/img__doctor-1.png" alt="">
+                <h5>Ronald Harvey</h5>
+                <p>Ronald qualified from Glasgow Vet School in 1992 and, after a years as a house surgeon specialising in smal animal and equine surgery, entered a busy mixed practice in Wales.</p>
+                <button id="myBtn2">Make an appointment</button>
+            </div>
+            <div class="about__body-card" data-aos="fade-up" data-aos-duration="1500">
+                <img src="images/img__doctor-2.png" alt="">
+                <h5>Frederica Morris</h5>
+                <p class="bott">Frederica has been working in small animal practice since 2006. She has a degree in animal behaviour and has completed a certificate in small animal medicine.</p>
+                <button id="myBtn3">Make an appointment</button>
+            </div>
+            <div class="about__body-card" data-aos="fade-up" data-aos-duration="1500">
+                <img src="images/img__doctor-3.png" alt="">
+                <h5>Isabel Berry</h5>
+                <p class="bott">Isabel wanted to  be a vet since she was seven years old and she made it when she graduated from vet school in 2012. She then worked in Warwickshire for two years.</p>
+                <button id="myBtn4">Make an appointment</button>
+            </div>
+            <div class="about__body-card" data-aos="fade-up" data-aos-duration="1500">
+                <img src="images/img__doctor-4.png" alt="">
+                <h5>William Norton</h5>
+                <p>William qualified from the Royal Veterinary College. London in 2014 and started working shortly after graduation. William enjoys all aspects of veterinary work.</p>
+                <button id="myBtn5">Make an appointment</button>
+            </div>
+            <div class="about__body-card" data-aos="fade-up" data-aos-duration="1500">
+                <img src="images/img__doctor-5.png" alt="">
+                <h5>Olivia Gibson</h5>
+                <p>Olivia qualified in 2016 and has worked in several first opinion practices since. Her particular interesrs are in internal medicine and cardiology.</p>
+                <button id="myBtn6">Make an appointment</button>
+            </div>
+            <div class="about__body-card" data-aos="fade-up" data-aos-duration="1500">
+                <img src="images/img__doctor-6.png" alt="">
+                <h5>Emily Lawson</h5>
+                <p>Emily graduated from the Royal Veterinary College. She has a keen interest in internal medicine and also enjoys soft tissue surgery and neurology.</p>
+                <button id="myBtn7">Make an appointment</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="reviews" class="reviewss">
+    <div class="container">
+        <h2 data-aos="fade-down" data-aos-duration="1500">Why choose us</h2>
+        <p class="text" data-aos="fade-down" data-aos-duration="1500">What our clients say</p>
+        <div class="swiper mySwiper" data-aos="fade-up" data-aos-duration="1500">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="reviews-card">
+                        <div class="img">
+                            <img src="images/reviews-1.jpg" alt="">
+                        </div>
+                        <div class="text__reviews">
+                            <h5>Ronald Harvey</h5>
+                            <p class="date">22.02.2022</p>
+                            <p>Excellent clinic. Competent specialists. Inside is clean? there is new equipment and freshly renovated. I have no doubts about the quality of services.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="reviews-card">
+                        <div class="img">
+                            <img src="images/reviews-2.jpg" alt="">
+                        </div>
+                        <div class="text__reviews">
+                            <h5>Caroline Simmons</h5>
+                            <p class="date">02.01.2022</p>
+                            <p>Very caring doctors who go the extra mile. Ialways refer here. The price is acceptable. I love this place! Thanks!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="reviews-card">
+                        <div class="img">
+                            <img src="images/reviews-3.jpg" alt="">
+                        </div>
+                        <div class="text__reviews">
+                            <h5>Mary Jordan</h5>
+                            <p class="date">21.02.2021</p>
+                            <p>Saying thank you is not enough! We sincerely thank the entire staff of the iPet veterinary clinic, which employs highly qualifed doctors. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="reviews-card">
+                        <div class="img">
+                            <img src="images/reviews-4.jpg" alt="">
+                        </div>
+                        <div class="text__reviews">
+                            <h5>Mary Jordan</h5>
+                            <p class="date">21.02.2021</p>
+                            <p>Saying thank you is not enough! We sincerely thank the entire staff of the iPet veterinary clinic, which employs highly qualifed doctors. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="reviews-card">
+                        <div class="img">
+                            <img src="images/reviews-5.jpg" alt="">
+                        </div>
+                        <div class="text__reviews">
+                            <h5>Mary Jordan</h5>
+                            <p class="date">21.02.2021</p>
+                            <p>Saying thank you is not enough! We sincerely thank the entire staff of the iPet veterinary clinic, which employs highly qualifed doctors. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="reviews-card">
+                        <div class="img">
+                            <img src="images/reviews-6.jpg" alt="">
+                        </div>
+                        <div class="text__reviews">
+                            <h5>Mary Jordan</h5>
+                            <p class="date">21.02.2021</p>
+                            <p>Saying thank you is not enough! We sincerely thank the entire staff of the iPet veterinary clinic, which employs highly qualifed doctors. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="reviews-card">
+                        <div class="img">
+                            <img src="images/reviews-7.jpg" alt="">
+                        </div>
+                        <div class="text__reviews">
+                            <h5>Mary Jordan</h5>
+                            <p class="date">21.02.2021</p>
+                            <p>Saying thank you is not enough! We sincerely thank the entire staff of the iPet veterinary clinic, which employs highly qualifed doctors. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="reviews-card">
+                        <div class="img">
+                            <img src="images/reviews-8.jpg" alt="">
+                        </div>
+                        <div class="text__reviews">
+                            <h5>Mary Jordan</h5>
+                            <p class="date">21.02.2021</p>
+                            <p>Saying thank you is not enough! We sincerely thank the entire staff of the iPet veterinary clinic, which employs highly qualifed doctors. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="reviews-card">
+                        <div class="img">
+                            <img src="images/reviews-9.jpg" alt="">
+                        </div>
+                        <div class="text__reviews">
+                            <h5>Mary Jordan</h5>
+                            <p class="date">21.02.2021</p>
+                            <p>Saying thank you is not enough! We sincerely thank the entire staff of the iPet veterinary clinic, which employs highly qualifed doctors. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next">
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="swiper-button-prev">
+                <i class="fa-solid fa-angle-left"></i>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="btn">
+            <a href="reviews.html" class="reviews__btn">Leave your feedback</a>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contactt">
+    <div class="paws">
+        <img class="paws_1" src="images/paws_1.png" alt="">
+        <img class="paws_2" src="images/paws_2.png" alt="">
+    </div>
+    <div class="map" style="width: 100%"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3186.524785556258!2d-85.91033318494294!3d36.99727496428139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88663dbdc30b174f%3A0x15835d037b179a69!2zMTM0IENvbHVtYmlhIEF2ZSwgR2xhc2dvdywgS1kgNDIxNDEsINCh0KjQkA!5e0!3m2!1sru!2sde!4v1658665826720!5m2!1sru!2sde" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><!--<iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Powers%20Hall%20End,%20Witham%20CM8%202HG,%20UK+(iPad)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>--></div>
+        <div class="container">
+            <div class="contact__body">
+                <h5>Veterinar Clinic iPet</h5>
+                <p>24 HOUR EMERGENCY</p>
+                <p><span>Location:</span><br>
+                    143 Columbia Ave, Glasgow,<br>
+                    KY 42141, United States</p>
+                <p><span>Phone:</span><br>
+                    +1 406 252-9499</p>
+                <button id="myBtn8" class="button__make"><span class="p">Make an appointment</span><span class="l"></span><i class="fa-solid fa-phone"></i></button>
+            </div>
+        </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__body">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/logo.png" alt="">
+                    <span class="color__yellow">i</span><span class="color__green">Pet</span>
+                </a>
+            </div>
+            <div class="stov">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About us</a></li>
+                </ul>
+            </div>
+            <div class="stov">
+                <ul>
+                    <li><a href="#">Reviews</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="stov">
+                <div class="col">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Powers Hall End,<br>
+                        Witham CM8 2HG, UK</p>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-calendar-check"></i>
+                    <p>Monday-Friday:<br>
+                        7:30am - 6:00pm</p>
+                </div>
+            </div>
+            <div class="stov">
+                <div class="col">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+1 406 183-3454</p>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>ipet@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer__body-mobile">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/logo.png" alt="">
+                    <span class="color__yellow">i</span><span class="color__green">Pet</span>
+                </a>
+            </div>
+            <div class="stov">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Reviews</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="stov">
+                <div class="col">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Powers Hall End,<br>
+                        Witham CM8 2HG, UK</p>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-calendar-check"></i>
+                    <p>Monday-Friday:<br>
+                        7:30am - 6:00pm</p>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+1 406 183-3454</p>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>ipet@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="line"></div>
+    <div class="container">
+        <div class="footer__f">
+            <p>Privacy policy</p>
+            <p>©2022 iPet veterinary. All rights reserved</p>
+        </div>
+    </div>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
