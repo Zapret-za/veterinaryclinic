@@ -17,38 +17,42 @@ oppMenu.addEventListener("click", toggleClassMenu, false);
 myMenu.addEventListener("click", toggleClassMenu, false);
 
 //Swiper
-let swiper;
-if (window.matchMedia("(max-width: 992px)").matches) {
-  swiper = new Swiper(".mySwiper", {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    loop: true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-  });
-} else {
-  swiper = new Swiper(".mySwiper", {
-    slidesPerView: 3,
-    spaceBetween: 30,
-    slidesPerGroup: 3,
-    loop: true,
-    loopFillGroupWithBlank: true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-  });
-}
+let swiper_reports = new Swiper(".mySwiper", {
+  slidesPerView: 1,
+  spaceBetween: 10,
+  loop: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+breakpoints: {
+          768: {
+              slidesPerView: 1,
+              spaceBetween: 10
+          },
+          992: {
+            slidesPerView: 2,
+            spaceBetween: 10
+        },
+          1200: {
+              slidesPerView: 3,
+              spaceBetween: 10
+          }
+      }
+});
+var mySwiper = new Swiper('.slider-container', {
+  centeredSlides: false,
+  slidesPerView: 4,
+  spaceBetween: 10,
+  navigation: {
+    nextEl: '.swiper-button-nextt',
+    prevEl: '.swiper-button-prevv',
+  },
+});
 
 //Modal
 var modal = document.getElementById("myModal");
